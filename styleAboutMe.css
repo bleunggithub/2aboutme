@@ -1,0 +1,263 @@
+/* colors */
+/* african violet c091ca
+Ash gray #C5CCB7
+uranian blue #b6dcfe 
+nickel(grey) #74776B*/
+
+/* general  */
+body {
+	color: #525252;
+}
+/* link */
+a {
+	color: #074373 !important;
+}
+
+a:hover {
+	color: #7c8e7b !important;
+	text-decoration: none;
+	transition-timing-function: ease !important;
+	transition-duration: 0.8s;
+}
+
+/* navbar */
+.navbar {
+	background-color: transparent;
+}
+.navbar-brand i {
+	color: #c5ccb7;
+}
+.nav-link {
+	color: #c5ccb7 !important;
+}
+.nav-link:hover {
+	color: #074273 !important;
+	transition-timing-function: ease-in-out !important;
+	transition-duration: 0.5s;
+}
+
+/* ::transition:: */
+.navbarDown {
+	color: #074273 !important;
+}
+@media (max-width: 600px) {
+	#navbarNav {
+		text-align: right !important;
+		color: #074273;
+	}
+	.navbar-brand i {
+		color: #fff;
+	}
+	.nav-link {
+		color: #074273 !important;
+	}
+}
+
+/* aboutMePhoto */
+.photoContainer {
+	height: 100vh;
+	/* border: 1px solid black; */
+	background-image: linear-gradient(
+			to bottom,
+			rgba(0, 195, 255, 0.3),
+			rgb(255, 255, 255, 0.3)
+		),
+		url(./assets/images/aboutMeBG.jpg);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: auto;
+	background-size: cover;
+	color: #fff;
+}
+.paddingRow1 {
+	height: 14%;
+}
+.photoRow {
+	background-color: rgb(255, 255, 255, 0.56);
+}
+#aboutMePhoto {
+	width: 250px;
+	border-radius: 50%;
+	padding-bottom: 16%;
+}
+.photoCol {
+	padding-top: 7%;
+	text-align: center;
+}
+.photoTextContainer {
+	padding-top: 9%;
+	text-align: justify;
+	text-justify: inter-word;
+}
+#name {
+	font-size: 1.3em;
+}
+.photoText {
+	padding-right: 10%;
+	color: #525252 !important;
+	font-size: 0.9em;
+}
+#down {
+	text-align: right;
+	padding-right: 10%;
+}
+
+/* text columns */
+.paddingRow2 {
+	height: 3%;
+}
+.textContainer {
+	margin-top: 5%;
+}
+.textTitle {
+	color: #525252 !important;
+	text-align: left;
+	margin-top: 5%;
+}
+.textTitle h5 {
+	padding-bottom: 2%;
+	padding-left: 15%;
+	font-size: 1.4em;
+}
+.textCol {
+	/* border: 1px solid black; */
+	color: #525252 !important;
+	text-align: justify;
+	text-justify: inter-word;
+	margin-bottom: 5%;
+}
+.textSub {
+	padding: 3% 5%;
+	font-size: 1.2em;
+}
+
+.innerText {
+	padding: 0% 5% 10% 5%;
+}
+#upTop {
+	text-align: right;
+	padding-right: 8%;
+}
+
+/* ramble text */
+
+.textCol {
+	max-height: 135px;
+	position: relative;
+	overflow: hidden;
+}
+.ramble {
+	text-align: center;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	text-align: center;
+	margin: 0;
+	padding: 10px 0;
+	background-image: linear-gradient(to bottom, transparent, #fff);
+}
+
+/* footer */
+.footer {
+	padding-top: 5%;
+	padding-bottom: 1%;
+	font-size: 0.7em;
+	font-family: "DM Sans";
+	color: #525252;
+	width: 80vw;
+	text-align: center !important;
+	/* border: 1px solid black; */
+}
+
+.footer a {
+	color: #c5ccb7 !important;
+}
+
+.footer a:hover {
+	color: #074373 !important;
+	transition-timing-function: ease !important;
+	transition-duration: 0.8s;
+}
+/* ---------------------------------- media query */
+/* small screen */
+@media (max-width: 600px) {
+	.photoContainer {
+		height: 100vh;
+	}
+	#aboutMePhoto {
+		width: 200px;
+		padding-bottom: 3%;
+	}
+	.paddingRow1 {
+		height: 0vh;
+	}
+
+	.photoCol {
+		margin-top: 20%;
+	}
+	.photoTextContainer {
+		margin: 50% 5% 5% 5%;
+		text-align: center;
+		height: 100vh;
+	}
+	.photoText {
+		padding-top: 14%;
+		padding-left: 5%;
+		padding-right: 10%;
+		font-size: 0.9em;
+		color: #525252 !important;
+	}
+	.textTitle {
+		line-height: 30px;
+	}
+	.textSub {
+		padding-top: 5%;
+		padding-bottom: 0%;
+	}
+	.textCol {
+		color: #525252 !important;
+		text-align: center;
+		margin-top: 8%;
+		margin-left: 5%;
+		margin-right: 5%;
+	}
+	.innerText {
+		text-align: justify;
+		text-justify: inter-word;
+	}
+
+	.footer {
+		padding-top: 0%;
+		padding-bottom: 2%;
+	}
+}
+/* medium screen */
+@media (max-width: 800px) {
+	#aboutMePhoto {
+		width: 200px;
+		padding-bottom: 3%;
+	}
+	.photoCol {
+		margin-top: 15%;
+		height: 60px;
+	}
+	.photoTextContainer {
+		margin-top: 25%;
+		color: #525252 !important;
+		text-align: center;
+	}
+	.photoText {
+		padding-left: 10%;
+		padding-right: 0%;
+		color: #525252 !important;
+	}
+	#down {
+		padding-top: 8%;
+	}
+	.textCol {
+		color: #525252 !important;
+		text-align: center;
+		font-size: 0.8em;
+	}
+}

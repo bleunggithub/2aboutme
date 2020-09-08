@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+		<title>B.Leung</title>
+
+		<!-- animate css -->
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
+		/>
+		<!-- bootstrap -->
+		<link
+			rel="stylesheet"
+			href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+			integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+			crossorigin="anonymous"
+		/>
+		<!-- font awesome  -->
+		<script
+			src="https://kit.fontawesome.com/fdd79be92b.js"
+			crossorigin="anonymous"
+		></script>
+		<!-- Google font -->
+		<link
+			rel="stylesheet"
+			href="https://fonts.googleapis.com/css?family=DM+Sans"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://fonts.googleapis.com/css?family=Roboto"
+		/>
+		<!-- custom -->
+		<link rel="stylesheet" href="./styleAboutMe.css" />
+	</head>
+
+	<body>
+		<!-- navbar -->
+		<nav class="navbar fixed-top navbar-expand-lg navbar-light">
+			<a class="navbar-brand" href="./index.html"
+				><i class="fas fa-home"></i
+			></a>
+			<button
+				class="navbar-toggler"
+				type="button"
+				data-toggle="collapse"
+				data-target="#navbarNav"
+				aria-controls="navbarNav"
+				aria-expanded="false"
+				aria-label="Toggle navigation"
+			>
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNav">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item currentPage">
+						<a
+							class="nav-link disabled"
+							id="navbarLink1"
+							href="#"
+							tabindex="-1"
+							aria-disabled="true"
+							><i class="fas fa-map-marker-alt"></i>&nbsp;About me
+						</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" id="navbarLink2" href="./portfolio.html"
+							>Portfolio</a
+						>
+					</li>
+					<!-- <li class="nav-item">
+						<a class="nav-link" id="navbarLink3" href="./aboutThisSite.html"
+							>About this site
+						</a>
+					</li> -->
+				</ul>
+			</div>
+		</nav>
+		<!-- about me photo -->
+		<div
+			class="container-fluid no-gutters animate__animated animate__fadeIn animate__slow photoContainer"
+		>
+			<div class="row justify-content-center paddingRow1" id="top"></div>
+			<div class="row justify-content-center photoRow">
+				<div class="col-lg-5 col-md-8 col-sm-8 photoCol">
+					<img src="./assets/images/aboutMe2.jpg" id="aboutMePhoto" />
+				</div>
+				<div class="col-lg-5 col-md-8 col-sm-8 photoTextContainer">
+					<p class="photoText">
+						<span id="name">Hello, this is Betty. </span><br /><br />I am a full
+						stack web development student at Xccelerate, just started the
+						bootcamp in mid-August. <br /><br />I am drawn to creative
+						problem-solving, especially for causes that align with my personal
+						value. When something captures my imagination and speaks to my
+						beliefs, I' go all in, dedicating my time, energy, thoughts and
+						emotions to the project.<br />
+					</p>
+					<p id="down">
+						<a href="#more"> <i class="fas fa-chevron-circle-down"></i></a>
+					</p>
+				</div>
+			</div>
+			<div class="row justify-content-center paddingRow2"></div>
+		</div>
+		<!-- text columns -->
+		<div class="container-fluid no-gutters textContainer" id="more">
+			<div class="row textTitle">
+				<h5>What matters?</h5>
+			</div>
+			<!-- first row -->
+			<div class="row justify-content-center" id="row1">
+				<div class="col-lg-3 col-md-8 col-sm-8 textCol">
+					<p class="textSub" id="MBTI">INFP-T</p>
+					<p class="innerText">
+						The Myers–Briggs Type Indicator (MBTI) is an introspective
+						self-report questionnaire indicating differing psychological
+						preferences in how people perceive the world and make decisions.<br /><br />
+						I am an INFP, which stands for "introversion, intuition, feeling,
+						perception", and INFP comprises approximately 4% of the
+						population.<br /><br />
+						INFPs are at times shy, don't like to be the centre of attention,
+						and gain energy from spending time alone. That being said, INFP are
+						considered gifted in communications with people (e.g. learning a new
+						language, or reading between the lines), but they like to focus
+						their attention on just a few people, rather than a large group.
+
+						<br /><br /><i class="fas fa-angle-double-right"></i>&nbsp; Take
+						your test here - MBTI&nbsp;
+						<a href="https://www.16personalities.com/" target="_blank"
+							><i class="fas fa-external-link-alt"></i
+						></a>
+					</p>
+					<p class="ramble">
+						<a href="#" class="rambleText"
+							><i class="fas fa-angle-double-down"></i
+						></a>
+					</p>
+				</div>
+				<div class="col-lg-3 col-md-8 col-sm-8 textCol">
+					<p class="textSub">Organisation Nerd</p>
+					<p class="innerText">
+						I have been an organisation nerd as long as I remember, even before
+						the minimalist movement or the Marie Kondo trend. I generally find
+						that decluttering and organisation makes me feel calm, and it gives
+						me a sense of comfort and control in a world of chaos. <br /><br />
+						I am passionate in helping people to keep their lives in order,
+						whether it's their time or the space around them. I am currently
+						working on a project that helps people choose the right Muji
+						organisational system for their home.
+					</p>
+					<p class="ramble">
+						<a href="#" class="rambleText"
+							><i class="fas fa-angle-double-down"></i
+						></a>
+					</p>
+				</div>
+				<div class="col-lg-3 col-md-8 col-sm-8 textCol">
+					<p class="textSub">Games</p>
+					<p class="innerText">
+						I enjoy playing games. Contrary to popular beliefs, gaming can be
+						beneficial to your health (as long as you are not pulling an
+						all-nighter for gaming, I suppose?), or even the society as a
+						whole.<br /><br />
+						In general, gamers have excellent hand-eye coordination, are better
+						team players, and have great problem-solving skills. But of course,
+						"Everything in moderation, including moderation.", Oscar Wilde is
+						right about this.
+					</p>
+					<p class="ramble">
+						<a href="#" class="rambleText"
+							><i class="fas fa-angle-double-down"></i
+						></a>
+					</p>
+				</div>
+			</div>
+			<!-- second row -->
+
+			<div class="row justify-content-center" id="row2">
+				<div class="col-lg-3 col-md-8 col-sm-8 textCol">
+					<p class="textSub">Cooking & baking</p>
+					<p class="innerText">
+						Cooking and baking are my passion I cannot live without. Food
+						Science is also quite a fascinating subject. <br /><br />
+						I am planning on starting a project on building a recipe bank, which
+						suggests recipes when people key in the food they already have in
+						their fridge.
+					</p>
+					<p class="ramble">
+						<a href="#" class="rambleText"
+							><i class="fas fa-angle-double-down"></i
+						></a>
+					</p>
+				</div>
+				<div class="col-lg-3 col-md-8 col-sm-8 textCol">
+					<p class="textSub">Travel</p>
+					<p class="innerText">
+						I love travelling and experiencing different cultures and a change
+						of scenary.<br /><br />
+						It's almost like I am living someone else's life for a few days. Did
+						I mention that I worked as a flight attendant briefly during my gap
+						year too?
+					</p>
+					<p class="ramble">
+						<a href="#" class="rambleText"
+							><i class="fas fa-angle-double-down"></i
+						></a>
+					</p>
+				</div>
+				<div class="col-lg-3 col-md-8 col-sm-8 textCol">
+					<p class="textSub"></p>
+					<p class="innerText">
+						<!-- empty, to be filled -->
+					</p>
+					<!-- <p class="ramble"><a href="#" class="rambleText"><i class="fas fa-angle-double-down"></i></a></p> -->
+				</div>
+			</div>
+			<div class="up">
+				<p id="upTop">
+					<a href="#top"><i class="fas fa-chevron-circle-up"></i></a>
+				</p>
+			</div>
+		</div>
+		<!-- footer -->
+		<div class="container-fluid no-gutters">
+			<div class="row justify-content-center footerRow">
+				<div class="col-12 footer">
+					<p>2020 &#169; <a href="mailto:ckbleung@pm.me">Betty Leung </a></p>
+				</div>
+			</div>
+		</div>
+
+		<!-- smooth scroll -->
+		<script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0/dist/smooth-scroll.polyfills.min.js"></script>
+		<!-- bootstrap -->
+		<script
+			src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+			integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+			integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+			integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+			crossorigin="anonymous"
+		></script>
+		<!-- jQuery -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<!-- custom -->
+		<script src="./aboutMe.js"></script>
+	</body>
+</html>
