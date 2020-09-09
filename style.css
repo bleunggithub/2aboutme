@@ -142,9 +142,7 @@ a:hover {
 		transform: translateX(0px);
 		opacity: 0;
 	}
-	60% {
-		transform: translateX(-30px);
-	}
+
 	100% {
 		transform: translateX(20px);
 		opacity: 1;

@@ -249,6 +249,11 @@ a:hover {
 	text-align: left;
 }
 
+/* mediaQ only */
+#mediaQonly{
+	display:none;
+}
+
 @media (max-width: 600px) {
 	.contents {
 		padding-top: 10vh;
@@ -280,6 +285,10 @@ a:hover {
 		margin-top:0;
 		margin-bottom: 2%;
 	}
+	#mediaQonly{
+		display: inline-block;
+	}
+
 }
 
 /* footer */
