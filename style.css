@@ -50,7 +50,7 @@ a:hover {
 
 .jumbotronText {
 	background: url("./assets/images/indexBG2.jpg") center no-repeat;
-
+	backdrop-filter: saturate(150%);
 	background-size: cover;
 	height: 100vh;
 	/* text */
@@ -59,7 +59,7 @@ a:hover {
 	font-family: "DM Sans";
 	font-size: 3.3vmin;
 	font-weight: 500;
-	color: #000;
+	color: #fff;
 	text-align: center;
 	/* border: 1px solid black; */
 }
@@ -75,7 +75,7 @@ a:hover {
 	.jumbotronText {
 		padding-top: 35%;
 		margin-bottom: 10%;
-		font-size: 1.3em;
+		font-size: 1.2em;
 	}
 	.j5 {
 		margin-right: 5%;
